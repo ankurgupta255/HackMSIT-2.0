@@ -3,6 +3,18 @@ html {
   overflow-x: hidden;
 }
 
+.each-team{
+  box-sizing: border-box;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.17);
+  padding: 25px 15px 25px;
+  margin-top: 10px;
+}  
+
+.each-team h4{
+  text-align: left;
+  padding: 10px;
+}
+
 .card{
   width: auto;
 }
@@ -1319,7 +1331,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .team-item {
   margin: 15px 0;
-  padding: 10px;
+  padding: 0px;
   border-radius: 4px;
   position: relative;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.17);
@@ -1405,11 +1417,13 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .team-item .info-text {
   position: absolute;
-  bottom: 10px;
+  bottom: 0px;
   left: 10px;
-  padding: 15px 20px;
+  padding: 0px;
   background: #f3f4f3;
   text-align: left;
+  line-height: 12px;
+  height: 35px;
 }
 
 .team-item .info-text h3 {
