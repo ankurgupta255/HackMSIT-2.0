@@ -12,6 +12,13 @@ html {
 
 }
 
+.each-team button{
+  box-sizing: border-box;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.17);
+  float: right;
+  background-color: #E91E63;
+}
+
 .each-team{
   box-sizing: border-box;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.17);
