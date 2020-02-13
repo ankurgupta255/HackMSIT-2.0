@@ -868,6 +868,10 @@ a.back-to-top:hover, a.back-to-top:focus {
     background: #f5f5f5;
     color: #E91E63;
   }
+  .card:nth-child(n){
+    margin-left: 10px;
+  }
+
 }
 
 .about-item {
