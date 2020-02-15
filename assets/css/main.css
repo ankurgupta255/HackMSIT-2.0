@@ -2295,9 +2295,9 @@ a.back-to-top:hover, a.back-to-top:focus {
   color: #fff;
   border-color: #fff;
 }
-.slider1,.slider2,.slider3{
+/* .slider1,.slider2,.slider3{
   height: 700px;
-}
+} */
 .card {
   box-shadow:
   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
