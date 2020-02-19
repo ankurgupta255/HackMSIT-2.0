@@ -909,13 +909,12 @@ a.back-to-top:hover, a.back-to-top:focus {
   }
   .card .card-body{
     width: 100%;
-    font-size: 20px;
+    font-size: 17px;
   }
 
-  .card .card-header{
-    font-size: 20px;
+  #faq .card .header-title{
+    font-size: 15px;
   }
-
 }
 
 .about-item {
@@ -2412,5 +2411,21 @@ text-align: center;
     .timer-group {
         margin-left: 15%;
     }
+}
 
+#faq .card{
+  color: #ef26bd;
+  text-align: left;
+}
+
+#faq .card .card-header i{
+  margin-right: 7px;
+  padding: 5px;
+  margin-left: 0;
+  font-weight: bold;
+  border-right: 2px solid #4682B4; 
+}
+
+#faq .card-body{
+  color: #2b2d70;
 }
