@@ -1048,20 +1048,44 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 #sponsors .spnsors-logo {
   text-align: center;
-  border-radius: 4px;
-  padding: 50px;
+  border-radius: 8px;
+  padding: 5px;
   margin-bottom: 30px;
   display: inline-block;
   border: 1px solid #ddd;
   background: #182348;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
+  /*width: 310px;*/
 }
 
 #sponsors .spnsors-logo:hover {
   border-color: transparent;
-  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2);
+  box-shadow: 20px 20px 20px #ef26bd;
 }
+
+#sponsors .spnsors-logo img{
+  max-width: 250px;
+  height: auto;
+  max-height: 200px;
+}
+
+#sponsors .btn{
+  background-color: #2b2d70;
+  color: #ef26bd;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#sponsors .btn:hover{
+  background-color: #ef26bd;
+  color: #2b2d70;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+
+
 
 /* Schedule Area */
 #schedules {
@@ -2323,9 +2347,9 @@ a.back-to-top:hover, a.back-to-top:focus {
   color: #182348;
   border-color: #182348;
 }
-/* .slider1,.slider2,.slider3{
+.slider1,.slider2,.slider3{
   height: 700px;
-} */
+} 
 .card {
   box-shadow:
   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
@@ -2456,5 +2480,9 @@ text-align: center;
 }
 
 #faq .card-body{
+  color: #2b2d70;
+}
+
+#sponsors h1 {
   color: #2b2d70;
 }
