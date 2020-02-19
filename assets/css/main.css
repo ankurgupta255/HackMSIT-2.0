@@ -991,6 +991,8 @@ a.back-to-top:hover, a.back-to-top:focus {
     	height: 100%;
     	background: rgba(0, 0, 0, 0.5);
     } */
+    box-shadow:
+        0 0 60px 5px #f0f;  /* inner white */
 }
 
 .counter-section .counter {
@@ -1290,11 +1292,18 @@ a.back-to-top:hover, a.back-to-top:focus {
   font-size: 20px;
   letter-spacing: 0.5px;
   font-weight: 400;
-  color: #212121;
+  color: #fff;
 }
 
 .services-item:hover {
   background: #f3f3f3;
+}
+
+.services-item:hover .services-content h3 a {
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  color: #182348;
 }
 
 .services-item:hover .icon i {
