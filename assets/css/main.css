@@ -286,18 +286,16 @@ ul li, ol li {
   -moz-transition: all .2s ease-in-out;
   -webkit-transition: all .2s ease-in-out;
 }
-
 .btn-border {
-  color: #182348;
+  color: white;
   background-color: transparent;
-  border: 1px solid #182348;
+  border: 1px solid white;
 }
 
 .btn-border:hover {
-  color: #182348;
-  background-color: rgba(255, 255, 255, 0.2);
+  color: black;
+  background-color: white;
 }
-
 .btn-lg {
   padding: 12px 34px;
   text-transform: uppercase;
@@ -1065,7 +1063,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 /* Schedule Area */
 #schedules {
-  background: #f3f4f3;
+  background: #182348;
 }
 
 #schedule-tab {
@@ -2413,6 +2411,10 @@ text-align: center;
   margin: 40px;
   margin-bottom: -35px;
   text-align: center;
+}
+
+.sch h4{
+  color:#fffff;
 }
 
 
