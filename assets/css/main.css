@@ -920,9 +920,15 @@ a.back-to-top:hover, a.back-to-top:focus {
   #faq .card .header-title{
     font-size: 15px;
   }
+
+  #faq .card .header-title{
+    overflow: 
+  }
+
   .card:nth-child(n){
     margin-left: 10px;
   }
+
   .card .card-body{
     width: 100%;
     font-size: 20px;
@@ -932,6 +938,9 @@ a.back-to-top:hover, a.back-to-top:focus {
     font-size: 20px;
   }
 
+  #sponsors .spnsors-logo{ 
+    box-shadow: 3px 3px 3px #ef26bd;
+  }
 }
 
 .about-item {
@@ -2488,3 +2497,11 @@ text-align: center;
 #sponsors h1 {
   color: #2b2d70;
 }
+
+.overflowch{
+  margin-left: 37px;
+}
+
+#sponsors .btn{
+  margin-top: 50px;
+} 
