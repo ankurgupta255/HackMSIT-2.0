@@ -692,7 +692,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  color: #182348;
+  color: #fff;
   padding: 0 15px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -1022,7 +1022,7 @@ a.back-to-top:hover, a.back-to-top:focus {
     	background: rgba(0, 0, 0, 0.5);
     } */
     box-shadow:
-        0 0 60px 5px #f0f;  /* inner white */
+        0 0 60px 10px black;  /* inner white */
 }
 
 .counter-section .counter {
@@ -1288,25 +1288,42 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .padding-none {
   padding: 0;
+  border-top: 1px solid #ddd;
   border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
 }
 
 .padding-none:nth-child(1) {
-  border-left: none;
+  padding: 0;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
 .padding-none:nth-child(4) {
-  border-bottom: none;
-  border-left: none;
+  padding: 0;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
 .padding-none:nth-child(5) {
-  border-bottom: none;
+  padding: 0;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
 .padding-none:nth-child(6) {
-  border-bottom: none;
+  padding: 0;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
 .services-wrapper {
@@ -1368,7 +1385,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 /* Gallery Section */
 #gallery {
-  background: #f3f4f3;
+  background: #182348;
   position: relative;
 }
 
@@ -1413,7 +1430,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 #gallery .gallery-box:hover .overlay-box {
-  background: rgba(233, 30, 99, 0.7);
+  background: rgba(108, 30, 233, 0.459);
   transform: scale(1, 1);
   transition: all 500ms ease;
 }
@@ -2451,7 +2468,7 @@ text-align: center;
 }
 
 .sch h4{
-  color:#fffff;
+  color:#fff;
 }
 
 .timer-div{
