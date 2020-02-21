@@ -920,9 +920,15 @@ a.back-to-top:hover, a.back-to-top:focus {
   #faq .card .header-title{
     font-size: 15px;
   }
+
+  #faq .card .header-title{
+    overflow: 
+  }
+
   .card:nth-child(n){
     margin-left: 10px;
   }
+
   .card .card-body{
     width: 100%;
     font-size: 20px;
@@ -930,6 +936,13 @@ a.back-to-top:hover, a.back-to-top:focus {
 
   .card .card-header{
     font-size: 20px;
+  }
+
+  #sponsors .spnsors-logo{ 
+    box-shadow: 3px 3px 3px #ef26bd;
+  }
+  .overflowch{
+  margin-left: 37px;
   }
 
 }
@@ -1379,6 +1392,10 @@ a.back-to-top:hover, a.back-to-top:focus {
 #gallery .gallery-box {
   position: relative;
   margin-bottom: 30px;
+}
+
+#gallery .lastimg{
+  height: 262px;
 }
 
 #gallery .gallery-box .overlay-box {
@@ -2276,7 +2293,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   margin-top: 30px;
-  text-shadow: 2px 4px 5px #fff;
+  text-shadow: 2px 2px 3px #fff;
 }
 
 #main-slide .carousel-item .carousel-caption p {
@@ -2458,8 +2475,6 @@ text-align: center;
   color:#fff;
 }
 
-
-
 .timer-div{
   display: inline-block;
   box-shadow: 0 4px 8px 0 rgba(252, 251, 251, 0.897), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -2505,3 +2520,7 @@ text-align: center;
 #sponsors h1 {
   color: #2b2d70;
 }
+
+#sponsors .btn{
+  margin-top: 50px;
+} 
