@@ -20,6 +20,10 @@ html {
   color: #fff;
 }
 
+.row {
+  justify-content: center;
+}
+
 .coming{
   box-sizing: border-box;
   box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.17);
